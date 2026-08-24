@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Navbar(){
     return(
-        <div className="flex justify-between py-3 px-3 bg-gradient-to-r from white-via-white to-indigo-100/70 z-0  ">
+        <div className="flex justify-between py-3 px-3 bg-gradient-to-r from white-via-white to-indigo-100/70 fixed top-0 left-0 z-5- ">
         <h1 className=" font-semibold">MVPIER</h1>
         <nav className="flex gap-6">
             <Link to="/">Home</Link>
